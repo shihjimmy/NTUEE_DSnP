@@ -1,0 +1,456 @@
+cir> cirr ./tests.fraig/C17.aag
+Cannot open design "./tests.fraig/C17.aag"!!
+
+cir> cirp
+Error: circuit is not yet constructed!!
+
+cir> cirp -pi
+Error: circuit is not yet constructed!!
+
+cir> cirp -po
+Error: circuit is not yet constructed!!
+
+cir> cirp -fl
+Error: circuit is not yet constructed!!
+
+cir> cirp -n
+Error: circuit is not yet constructed!!
+
+cir> cirw
+Error: circuit is not yet constructed!!
+
+cir> cirg 13 -fanin 10
+Error: circuit has not been read!!
+
+cir> cirg 14 -fanin 10
+Error: circuit has not been read!!
+
+cir> 
+cir> cirr ./tests.fraig/C432.aag -r
+Cannot open design "./tests.fraig/C432.aag"!!
+
+cir> cirp
+Error: circuit is not yet constructed!!
+
+cir> cirp -pi
+Error: circuit is not yet constructed!!
+
+cir> cirp -po
+Error: circuit is not yet constructed!!
+
+cir> cirp -fl
+Error: circuit is not yet constructed!!
+
+cir> cirp -n
+Error: circuit is not yet constructed!!
+
+cir> cirw
+Error: circuit is not yet constructed!!
+
+cir> cirg 347 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 348 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 349 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 350 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 351 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 352 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 353 -fanin 30
+Error: circuit has not been read!!
+
+cir> 
+cir> cirr ./tests.fraig/C432_r.aag -r
+Cannot open design "./tests.fraig/C432_r.aag"!!
+
+cir> cirp
+Error: circuit is not yet constructed!!
+
+cir> cirp -pi
+Error: circuit is not yet constructed!!
+
+cir> cirp -po
+Error: circuit is not yet constructed!!
+
+cir> cirp -fl
+Error: circuit is not yet constructed!!
+
+cir> cirp -n
+Error: circuit is not yet constructed!!
+
+cir> cirw
+Error: circuit is not yet constructed!!
+
+cir> cirg 343 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 344 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 345 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 346 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 347 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 348 -fanin 30
+Error: circuit has not been read!!
+
+cir> cirg 349 -fanin 30
+Error: circuit has not been read!!
+
+cir> 
+cir> cirr ./tests.fraig/C499.aag -r
+Cannot open design "./tests.fraig/C499.aag"!!
+
+cir> cirp
+Error: circuit is not yet constructed!!
+
+cir> cirp -pi
+Error: circuit is not yet constructed!!
+
+cir> cirp -po
+Error: circuit is not yet constructed!!
+
+cir> cirp -fl
+Error: circuit is not yet constructed!!
+
+cir> cirp -n
+Error: circuit is not yet constructed!!
+
+cir> cirw
+Error: circuit is not yet constructed!!
+
+cir> cirg 632 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 633 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 634 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 635 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 636 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 637 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 638 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 639 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 640 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 641 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 642 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 643 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 644 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 645 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 646 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 647 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 648 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 649 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 650 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 651 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 652 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 653 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 654 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 655 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 656 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 657 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 658 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 659 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 660 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 661 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 662 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 663 -fanin 50
+Error: circuit has not been read!!
+
+cir> 
+cir> cirr ./tests.fraig/C499_r.aag -r
+Cannot open design "./tests.fraig/C499_r.aag"!!
+
+cir> cirp
+Error: circuit is not yet constructed!!
+
+cir> cirp -pi
+Error: circuit is not yet constructed!!
+
+cir> cirp -po
+Error: circuit is not yet constructed!!
+
+cir> cirp -fl
+Error: circuit is not yet constructed!!
+
+cir> cirp -n
+Error: circuit is not yet constructed!!
+
+cir> cirw
+Error: circuit is not yet constructed!!
+
+cir> cirg 496 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 497 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 498 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 499 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 500 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 501 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 502 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 503 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 504 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 505 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 506 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 507 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 508 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 509 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 510 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 511 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 512 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 513 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 514 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 515 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 516 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 517 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 518 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 519 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 520 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 521 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 522 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 523 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 524 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 525 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 526 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 527 -fanin 50
+Error: circuit has not been read!!
+
+cir> 
+cir> cirr ./tests.fraig/C880.aag -r
+Cannot open design "./tests.fraig/C880.aag"!!
+
+cir> cirp
+Error: circuit is not yet constructed!!
+
+cir> cirp -pi
+Error: circuit is not yet constructed!!
+
+cir> cirp -po
+Error: circuit is not yet constructed!!
+
+cir> cirp -fl
+Error: circuit is not yet constructed!!
+
+cir> cirp -n
+Error: circuit is not yet constructed!!
+
+cir> cirw
+Error: circuit is not yet constructed!!
+
+cir> cirg 522 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 523 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 524 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 525 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 526 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 527 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 528 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 529 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 530 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 531 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 532 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 533 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 533 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 534 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 535 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 536 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 537 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 538 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 539 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 540 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 541 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 542 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 543 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 544 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 545 -fanin 50
+Error: circuit has not been read!!
+
+cir> cirg 546 -fanin 50
+Error: circuit has not been read!!
+
+cir> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+cir> Quit -f
+
