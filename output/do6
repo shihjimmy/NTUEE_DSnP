@@ -1,0 +1,6108 @@
+cir> cirr ./tests.fraig/opt01.aag
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 2 -fanin 0
+AIG 2
+
+cir> cirg 2 -fanin 1
+AIG 2
+  !CONST 0
+  PI 1
+
+cir> cirg 2 -fanin 2
+AIG 2
+  !CONST 0
+  PI 1
+
+cir> cirg 3 -fanin 0
+PO 3
+
+cir> cirg 3 -fanin 1
+PO 3
+  AIG 2
+
+cir> cirg 3 -fanin 2
+PO 3
+  AIG 2
+    !CONST 0
+    PI 1
+
+cir> cirg 4 -fanin 0
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 1
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 2
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirr ./tests.fraig/opt02.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 2 -fanin 0
+AIG 2
+
+cir> cirg 2 -fanin 1
+AIG 2
+  CONST 0
+  PI 1
+
+cir> cirg 2 -fanin 2
+AIG 2
+  CONST 0
+  PI 1
+
+cir> cirg 3 -fanin 0
+PO 3
+
+cir> cirg 3 -fanin 1
+PO 3
+  AIG 2
+
+cir> cirg 3 -fanin 2
+PO 3
+  AIG 2
+    CONST 0
+    PI 1
+
+cir> cirg 4 -fanin 0
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 1
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 2
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirr ./tests.fraig/opt03.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 2 -fanin 0
+AIG 2
+
+cir> cirg 2 -fanin 1
+AIG 2
+  PI 1
+  PI 1
+
+cir> cirg 2 -fanin 2
+AIG 2
+  PI 1
+  PI 1
+
+cir> cirg 3 -fanin 0
+PO 3
+
+cir> cirg 3 -fanin 1
+PO 3
+  AIG 2
+
+cir> cirg 3 -fanin 2
+PO 3
+  AIG 2
+    PI 1
+    PI 1
+
+cir> cirg 4 -fanin 0
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 1
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 2
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirr ./tests.fraig/opt04.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 2 -fanin 0
+AIG 2
+
+cir> cirg 2 -fanin 1
+AIG 2
+  !PI 1
+  PI 1
+
+cir> cirg 2 -fanin 2
+AIG 2
+  !PI 1
+  PI 1
+
+cir> cirg 3 -fanin 0
+PO 3
+
+cir> cirg 3 -fanin 1
+PO 3
+  AIG 2
+
+cir> cirg 3 -fanin 2
+PO 3
+  AIG 2
+    !PI 1
+    PI 1
+
+cir> cirg 4 -fanin 0
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 1
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 2
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirr ./tests.fraig/opt05.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 4 -fanin 0
+PI 4
+
+cir> cirg 4 -fanin 1
+PI 4
+
+cir> cirg 4 -fanin 2
+PI 4
+
+cir> cirg 4 -fanin 3
+PI 4
+
+cir> cirg 4 -fanin 4
+PI 4
+
+cir> cirg 5 -fanin 0
+PI 5
+
+cir> cirg 5 -fanin 1
+PI 5
+
+cir> cirg 5 -fanin 2
+PI 5
+
+cir> cirg 5 -fanin 3
+PI 5
+
+cir> cirg 5 -fanin 4
+PI 5
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  !CONST 0
+  !PI 1
+
+cir> cirg 6 -fanin 2
+AIG 6
+  !CONST 0
+  !PI 1
+
+cir> cirg 6 -fanin 3
+AIG 6
+  !CONST 0
+  !PI 1
+
+cir> cirg 6 -fanin 4
+AIG 6
+  !CONST 0
+  !PI 1
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  PI 2
+  PI 3
+
+cir> cirg 7 -fanin 2
+AIG 7
+  PI 2
+  PI 3
+
+cir> cirg 7 -fanin 3
+AIG 7
+  PI 2
+  PI 3
+
+cir> cirg 7 -fanin 4
+AIG 7
+  PI 2
+  PI 3
+
+cir> cirg 8 -fanin 0
+AIG 8
+
+cir> cirg 8 -fanin 1
+AIG 8
+  AIG 6
+  PI 1
+
+cir> cirg 8 -fanin 2
+AIG 8
+  AIG 6
+    !CONST 0
+    !PI 1
+  PI 1
+
+cir> cirg 8 -fanin 3
+AIG 8
+  AIG 6
+    !CONST 0
+    !PI 1
+  PI 1
+
+cir> cirg 8 -fanin 4
+AIG 8
+  AIG 6
+    !CONST 0
+    !PI 1
+  PI 1
+
+cir> cirg 9 -fanin 0
+AIG 9
+
+cir> cirg 9 -fanin 1
+AIG 9
+  AIG 8
+  AIG 7
+
+cir> cirg 9 -fanin 2
+AIG 9
+  AIG 8
+    AIG 6
+    PI 1
+  AIG 7
+    PI 2
+    PI 3
+
+cir> cirg 9 -fanin 3
+AIG 9
+  AIG 8
+    AIG 6
+      !CONST 0
+      !PI 1
+    PI 1
+  AIG 7
+    PI 2
+    PI 3
+
+cir> cirg 9 -fanin 4
+AIG 9
+  AIG 8
+    AIG 6
+      !CONST 0
+      !PI 1
+    PI 1
+  AIG 7
+    PI 2
+    PI 3
+
+cir> cirg 10 -fanin 0
+AIG 10
+
+cir> cirg 10 -fanin 1
+AIG 10
+  PI 4
+  !AIG 8
+
+cir> cirg 10 -fanin 2
+AIG 10
+  PI 4
+  !AIG 8
+    AIG 6
+    PI 1
+
+cir> cirg 10 -fanin 3
+AIG 10
+  PI 4
+  !AIG 8
+    AIG 6
+      !CONST 0
+      !PI 1
+    PI 1
+
+cir> cirg 10 -fanin 4
+AIG 10
+  PI 4
+  !AIG 8
+    AIG 6
+      !CONST 0
+      !PI 1
+    PI 1
+
+cir> cirg 11 -fanin 0
+AIG 11
+
+cir> cirg 11 -fanin 1
+AIG 11
+  !AIG 7
+  !CONST 0
+
+cir> cirg 11 -fanin 2
+AIG 11
+  !AIG 7
+    PI 2
+    PI 3
+  !CONST 0
+
+cir> cirg 11 -fanin 3
+AIG 11
+  !AIG 7
+    PI 2
+    PI 3
+  !CONST 0
+
+cir> cirg 11 -fanin 4
+AIG 11
+  !AIG 7
+    PI 2
+    PI 3
+  !CONST 0
+
+cir> cirg 12 -fanin 0
+AIG 12
+
+cir> cirg 12 -fanin 1
+AIG 12
+  PI 5
+  AIG 10
+
+cir> cirg 12 -fanin 2
+AIG 12
+  PI 5
+  AIG 10
+    PI 4
+    !AIG 8
+
+cir> cirg 12 -fanin 3
+AIG 12
+  PI 5
+  AIG 10
+    PI 4
+    !AIG 8
+      AIG 6
+      PI 1
+
+cir> cirg 12 -fanin 4
+AIG 12
+  PI 5
+  AIG 10
+    PI 4
+    !AIG 8
+      AIG 6
+        !CONST 0
+        !PI 1
+      PI 1
+
+cir> cirg 13 -fanin 0
+PO 13
+
+cir> cirg 13 -fanin 1
+PO 13
+  AIG 9
+
+cir> cirg 13 -fanin 2
+PO 13
+  AIG 9
+    AIG 8
+    AIG 7
+
+cir> cirg 13 -fanin 3
+PO 13
+  AIG 9
+    AIG 8
+      AIG 6
+      PI 1
+    AIG 7
+      PI 2
+      PI 3
+
+cir> cirg 13 -fanin 4
+PO 13
+  AIG 9
+    AIG 8
+      AIG 6
+        !CONST 0
+        !PI 1
+      PI 1
+    AIG 7
+      PI 2
+      PI 3
+
+cir> cirg 14 -fanin 0
+PO 14
+
+cir> cirg 14 -fanin 1
+PO 14
+  !AIG 11
+
+cir> cirg 14 -fanin 2
+PO 14
+  !AIG 11
+    !AIG 7
+    !CONST 0
+
+cir> cirg 14 -fanin 3
+PO 14
+  !AIG 11
+    !AIG 7
+      PI 2
+      PI 3
+    !CONST 0
+
+cir> cirg 14 -fanin 4
+PO 14
+  !AIG 11
+    !AIG 7
+      PI 2
+      PI 3
+    !CONST 0
+
+cir> cirg 15 -fanin 0
+PO 15
+
+cir> cirg 15 -fanin 1
+PO 15
+  AIG 12
+
+cir> cirg 15 -fanin 2
+PO 15
+  AIG 12
+    PI 5
+    AIG 10
+
+cir> cirg 15 -fanin 3
+PO 15
+  AIG 12
+    PI 5
+    AIG 10
+      PI 4
+      !AIG 8
+
+cir> cirg 15 -fanin 4
+PO 15
+  AIG 12
+    PI 5
+    AIG 10
+      PI 4
+      !AIG 8
+        AIG 6
+        PI 1
+
+cir> cirg 16 -fanin 0
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 1
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 2
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 3
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 4
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirr ./tests.fraig/opt06.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+AIG 3
+
+cir> cirg 3 -fanin 1
+AIG 3
+  CONST 0
+  PI 1
+
+cir> cirg 3 -fanin 2
+AIG 3
+  CONST 0
+  PI 1
+
+cir> cirg 3 -fanin 3
+AIG 3
+  CONST 0
+  PI 1
+
+cir> cirg 3 -fanin 4
+AIG 3
+  CONST 0
+  PI 1
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  AIG 3
+  !CONST 0
+
+cir> cirg 4 -fanin 2
+AIG 4
+  AIG 3
+    CONST 0
+    PI 1
+  !CONST 0
+
+cir> cirg 4 -fanin 3
+AIG 4
+  AIG 3
+    CONST 0
+    PI 1
+  !CONST 0
+
+cir> cirg 4 -fanin 4
+AIG 4
+  AIG 3
+    CONST 0
+    PI 1
+  !CONST 0
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  CONST 0
+  AIG 4
+
+cir> cirg 5 -fanin 2
+AIG 5
+  CONST 0
+  AIG 4
+    AIG 3
+    !CONST 0
+
+cir> cirg 5 -fanin 3
+AIG 5
+  CONST 0
+  AIG 4
+    AIG 3
+      CONST 0
+      PI 1
+    !CONST 0
+
+cir> cirg 5 -fanin 4
+AIG 5
+  CONST 0
+  AIG 4
+    AIG 3
+      CONST 0
+      PI 1
+    !CONST 0
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  !AIG 5
+  AIG 8
+
+cir> cirg 6 -fanin 2
+AIG 6
+  !AIG 5
+    CONST 0
+    AIG 4
+  AIG 8
+    !AIG 7
+    !AIG 7
+
+cir> cirg 6 -fanin 3
+AIG 6
+  !AIG 5
+    CONST 0
+    AIG 4
+      AIG 3
+      !CONST 0
+  AIG 8
+    !AIG 7
+      PI 1
+      !PI 2
+    !AIG 7 (*)
+
+cir> cirg 6 -fanin 4
+AIG 6
+  !AIG 5
+    CONST 0
+    AIG 4
+      AIG 3
+        CONST 0
+        PI 1
+      !CONST 0
+  AIG 8
+    !AIG 7
+      PI 1
+      !PI 2
+    !AIG 7 (*)
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  PI 1
+  !PI 2
+
+cir> cirg 7 -fanin 2
+AIG 7
+  PI 1
+  !PI 2
+
+cir> cirg 7 -fanin 3
+AIG 7
+  PI 1
+  !PI 2
+
+cir> cirg 7 -fanin 4
+AIG 7
+  PI 1
+  !PI 2
+
+cir> cirg 8 -fanin 0
+AIG 8
+
+cir> cirg 8 -fanin 1
+AIG 8
+  !AIG 7
+  !AIG 7
+
+cir> cirg 8 -fanin 2
+AIG 8
+  !AIG 7
+    PI 1
+    !PI 2
+  !AIG 7 (*)
+
+cir> cirg 8 -fanin 3
+AIG 8
+  !AIG 7
+    PI 1
+    !PI 2
+  !AIG 7 (*)
+
+cir> cirg 8 -fanin 4
+AIG 8
+  !AIG 7
+    PI 1
+    !PI 2
+  !AIG 7 (*)
+
+cir> cirg 9 -fanin 0
+AIG 9
+
+cir> cirg 9 -fanin 1
+AIG 9
+  AIG 7
+  AIG 7
+
+cir> cirg 9 -fanin 2
+AIG 9
+  AIG 7
+    PI 1
+    !PI 2
+  AIG 7 (*)
+
+cir> cirg 9 -fanin 3
+AIG 9
+  AIG 7
+    PI 1
+    !PI 2
+  AIG 7 (*)
+
+cir> cirg 9 -fanin 4
+AIG 9
+  AIG 7
+    PI 1
+    !PI 2
+  AIG 7 (*)
+
+cir> cirg 10 -fanin 0
+AIG 10
+
+cir> cirg 10 -fanin 1
+AIG 10
+  AIG 6
+  AIG 7
+
+cir> cirg 10 -fanin 2
+AIG 10
+  AIG 6
+    !AIG 5
+    AIG 8
+  AIG 7
+    PI 1
+    !PI 2
+
+cir> cirg 10 -fanin 3
+AIG 10
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+    AIG 8
+      !AIG 7
+      !AIG 7
+  AIG 7
+    PI 1
+    !PI 2
+
+cir> cirg 10 -fanin 4
+AIG 10
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+        AIG 3
+        !CONST 0
+    AIG 8
+      !AIG 7
+        PI 1
+        !PI 2
+      !AIG 7 (*)
+  AIG 7 (*)
+
+cir> cirg 11 -fanin 0
+AIG 11
+
+cir> cirg 11 -fanin 1
+AIG 11
+  AIG 6
+  AIG 8
+
+cir> cirg 11 -fanin 2
+AIG 11
+  AIG 6
+    !AIG 5
+    AIG 8
+  AIG 8
+    !AIG 7
+    !AIG 7
+
+cir> cirg 11 -fanin 3
+AIG 11
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+    AIG 8
+      !AIG 7
+      !AIG 7
+  AIG 8 (*)
+
+cir> cirg 11 -fanin 4
+AIG 11
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+        AIG 3
+        !CONST 0
+    AIG 8
+      !AIG 7
+        PI 1
+        !PI 2
+      !AIG 7 (*)
+  AIG 8 (*)
+
+cir> cirg 12 -fanin 0
+AIG 12
+
+cir> cirg 12 -fanin 1
+AIG 12
+  AIG 6
+  AIG 9
+
+cir> cirg 12 -fanin 2
+AIG 12
+  AIG 6
+    !AIG 5
+    AIG 8
+  AIG 9
+    AIG 7
+    AIG 7
+
+cir> cirg 12 -fanin 3
+AIG 12
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+    AIG 8
+      !AIG 7
+      !AIG 7
+  AIG 9
+    AIG 7
+      PI 1
+      !PI 2
+    AIG 7 (*)
+
+cir> cirg 12 -fanin 4
+AIG 12
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+        AIG 3
+        !CONST 0
+    AIG 8
+      !AIG 7
+        PI 1
+        !PI 2
+      !AIG 7 (*)
+  AIG 9
+    AIG 7 (*)
+    AIG 7 (*)
+
+cir> cirg 13 -fanin 0
+AIG 13
+
+cir> cirg 13 -fanin 1
+AIG 13
+  !AIG 10
+  AIG 12
+
+cir> cirg 13 -fanin 2
+AIG 13
+  !AIG 10
+    AIG 6
+    AIG 7
+  AIG 12
+    AIG 6
+    AIG 9
+
+cir> cirg 13 -fanin 3
+AIG 13
+  !AIG 10
+    AIG 6
+      !AIG 5
+      AIG 8
+    AIG 7
+      PI 1
+      !PI 2
+  AIG 12
+    AIG 6 (*)
+    AIG 9
+      AIG 7
+      AIG 7
+
+cir> cirg 13 -fanin 4
+AIG 13
+  !AIG 10
+    AIG 6
+      !AIG 5
+        CONST 0
+        AIG 4
+      AIG 8
+        !AIG 7
+        !AIG 7
+    AIG 7
+      PI 1
+      !PI 2
+  AIG 12
+    AIG 6 (*)
+    AIG 9
+      AIG 7 (*)
+      AIG 7 (*)
+
+cir> cirg 14 -fanin 0
+AIG 14
+
+cir> cirg 14 -fanin 1
+AIG 14
+  AIG 11
+  !AIG 13
+
+cir> cirg 14 -fanin 2
+AIG 14
+  AIG 11
+    AIG 6
+    AIG 8
+  !AIG 13
+    !AIG 10
+    AIG 12
+
+cir> cirg 14 -fanin 3
+AIG 14
+  AIG 11
+    AIG 6
+      !AIG 5
+      AIG 8
+    AIG 8
+      !AIG 7
+      !AIG 7
+  !AIG 13
+    !AIG 10
+      AIG 6
+      AIG 7
+    AIG 12
+      AIG 6
+      AIG 9
+
+cir> cirg 14 -fanin 4
+AIG 14
+  AIG 11
+    AIG 6
+      !AIG 5
+        CONST 0
+        AIG 4
+      AIG 8
+        !AIG 7
+        !AIG 7
+    AIG 8 (*)
+  !AIG 13
+    !AIG 10
+      AIG 6 (*)
+      AIG 7
+        PI 1
+        !PI 2
+    AIG 12
+      AIG 6 (*)
+      AIG 9
+        AIG 7
+        AIG 7
+
+cir> cirg 15 -fanin 0
+PO 15
+
+cir> cirg 15 -fanin 1
+PO 15
+  AIG 14
+
+cir> cirg 15 -fanin 2
+PO 15
+  AIG 14
+    AIG 11
+    !AIG 13
+
+cir> cirg 15 -fanin 3
+PO 15
+  AIG 14
+    AIG 11
+      AIG 6
+      AIG 8
+    !AIG 13
+      !AIG 10
+      AIG 12
+
+cir> cirg 15 -fanin 4
+PO 15
+  AIG 14
+    AIG 11
+      AIG 6
+        !AIG 5
+        AIG 8
+      AIG 8
+        !AIG 7
+        !AIG 7
+    !AIG 13
+      !AIG 10
+        AIG 6
+        AIG 7
+      AIG 12
+        AIG 6
+        AIG 9
+
+cir> cirg 16 -fanin 0
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 1
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 2
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 3
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 4
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirr ./tests.fraig/sim01.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 2
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 3
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 4
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 2
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 3
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 4
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  !AIG 4
+  !AIG 5
+
+cir> cirg 6 -fanin 2
+AIG 6
+  !AIG 4
+    PI 1
+    PI 2
+  !AIG 5
+    PI 1
+    PI 3
+
+cir> cirg 6 -fanin 3
+AIG 6
+  !AIG 4
+    PI 1
+    PI 2
+  !AIG 5
+    PI 1
+    PI 3
+
+cir> cirg 6 -fanin 4
+AIG 6
+  !AIG 4
+    PI 1
+    PI 2
+  !AIG 5
+    PI 1
+    PI 3
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 7 -fanin 2
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 7 -fanin 3
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 7 -fanin 4
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 8 -fanin 0
+AIG 8
+
+cir> cirg 8 -fanin 1
+AIG 8
+  !AIG 7
+  PI 1
+
+cir> cirg 8 -fanin 2
+AIG 8
+  !AIG 7
+    !PI 2
+    !PI 3
+  PI 1
+
+cir> cirg 8 -fanin 3
+AIG 8
+  !AIG 7
+    !PI 2
+    !PI 3
+  PI 1
+
+cir> cirg 8 -fanin 4
+AIG 8
+  !AIG 7
+    !PI 2
+    !PI 3
+  PI 1
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  !AIG 6
+
+cir> cirg 9 -fanin 2
+PO 9
+  !AIG 6
+    !AIG 4
+    !AIG 5
+
+cir> cirg 9 -fanin 3
+PO 9
+  !AIG 6
+    !AIG 4
+      PI 1
+      PI 2
+    !AIG 5
+      PI 1
+      PI 3
+
+cir> cirg 9 -fanin 4
+PO 9
+  !AIG 6
+    !AIG 4
+      PI 1
+      PI 2
+    !AIG 5
+      PI 1
+      PI 3
+
+cir> cirg 10 -fanin 0
+PO 10
+
+cir> cirg 10 -fanin 1
+PO 10
+  AIG 8
+
+cir> cirg 10 -fanin 2
+PO 10
+  AIG 8
+    !AIG 7
+    PI 1
+
+cir> cirg 10 -fanin 3
+PO 10
+  AIG 8
+    !AIG 7
+      !PI 2
+      !PI 3
+    PI 1
+
+cir> cirg 10 -fanin 4
+PO 10
+  AIG 8
+    !AIG 7
+      !PI 2
+      !PI 3
+    PI 1
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 12 -fanin 0
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 1
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 2
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 3
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 4
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirr ./tests.fraig/sim02.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 2
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 3
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 4
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 2
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 3
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 4
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  !AIG 4
+  !AIG 5
+
+cir> cirg 6 -fanin 2
+AIG 6
+  !AIG 4
+    PI 1
+    PI 2
+  !AIG 5
+    PI 1
+    PI 3
+
+cir> cirg 6 -fanin 3
+AIG 6
+  !AIG 4
+    PI 1
+    PI 2
+  !AIG 5
+    PI 1
+    PI 3
+
+cir> cirg 6 -fanin 4
+AIG 6
+  !AIG 4
+    PI 1
+    PI 2
+  !AIG 5
+    PI 1
+    PI 3
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 7 -fanin 2
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 7 -fanin 3
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 7 -fanin 4
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 8 -fanin 0
+AIG 8
+
+cir> cirg 8 -fanin 1
+AIG 8
+  !AIG 7
+  PI 1
+
+cir> cirg 8 -fanin 2
+AIG 8
+  !AIG 7
+    !PI 2
+    !PI 3
+  PI 1
+
+cir> cirg 8 -fanin 3
+AIG 8
+  !AIG 7
+    !PI 2
+    !PI 3
+  PI 1
+
+cir> cirg 8 -fanin 4
+AIG 8
+  !AIG 7
+    !PI 2
+    !PI 3
+  PI 1
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  !AIG 6
+
+cir> cirg 9 -fanin 2
+PO 9
+  !AIG 6
+    !AIG 4
+    !AIG 5
+
+cir> cirg 9 -fanin 3
+PO 9
+  !AIG 6
+    !AIG 4
+      PI 1
+      PI 2
+    !AIG 5
+      PI 1
+      PI 3
+
+cir> cirg 9 -fanin 4
+PO 9
+  !AIG 6
+    !AIG 4
+      PI 1
+      PI 2
+    !AIG 5
+      PI 1
+      PI 3
+
+cir> cirg 10 -fanin 0
+PO 10
+
+cir> cirg 10 -fanin 1
+PO 10
+  AIG 8
+
+cir> cirg 10 -fanin 2
+PO 10
+  AIG 8
+    !AIG 7
+    PI 1
+
+cir> cirg 10 -fanin 3
+PO 10
+  AIG 8
+    !AIG 7
+      !PI 2
+      !PI 3
+    PI 1
+
+cir> cirg 10 -fanin 4
+PO 10
+  AIG 8
+    !AIG 7
+      !PI 2
+      !PI 3
+    PI 1
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 12 -fanin 0
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 1
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 2
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 3
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 4
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirr ./tests.fraig/sim03.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 2
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 3
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 4
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 2
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 3
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 4
+AIG 5
+  PI 1
+  PI 3
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  !AIG 4
+  !AIG 5
+
+cir> cirg 6 -fanin 2
+AIG 6
+  !AIG 4
+    PI 1
+    PI 2
+  !AIG 5
+    PI 1
+    PI 3
+
+cir> cirg 6 -fanin 3
+AIG 6
+  !AIG 4
+    PI 1
+    PI 2
+  !AIG 5
+    PI 1
+    PI 3
+
+cir> cirg 6 -fanin 4
+AIG 6
+  !AIG 4
+    PI 1
+    PI 2
+  !AIG 5
+    PI 1
+    PI 3
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 7 -fanin 2
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 7 -fanin 3
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 7 -fanin 4
+AIG 7
+  !PI 2
+  !PI 3
+
+cir> cirg 8 -fanin 0
+AIG 8
+
+cir> cirg 8 -fanin 1
+AIG 8
+  !AIG 7
+  PI 1
+
+cir> cirg 8 -fanin 2
+AIG 8
+  !AIG 7
+    !PI 2
+    !PI 3
+  PI 1
+
+cir> cirg 8 -fanin 3
+AIG 8
+  !AIG 7
+    !PI 2
+    !PI 3
+  PI 1
+
+cir> cirg 8 -fanin 4
+AIG 8
+  !AIG 7
+    !PI 2
+    !PI 3
+  PI 1
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  !AIG 6
+
+cir> cirg 9 -fanin 2
+PO 9
+  !AIG 6
+    !AIG 4
+    !AIG 5
+
+cir> cirg 9 -fanin 3
+PO 9
+  !AIG 6
+    !AIG 4
+      PI 1
+      PI 2
+    !AIG 5
+      PI 1
+      PI 3
+
+cir> cirg 9 -fanin 4
+PO 9
+  !AIG 6
+    !AIG 4
+      PI 1
+      PI 2
+    !AIG 5
+      PI 1
+      PI 3
+
+cir> cirg 10 -fanin 0
+PO 10
+
+cir> cirg 10 -fanin 1
+PO 10
+  AIG 8
+
+cir> cirg 10 -fanin 2
+PO 10
+  AIG 8
+    !AIG 7
+    PI 1
+
+cir> cirg 10 -fanin 3
+PO 10
+  AIG 8
+    !AIG 7
+      !PI 2
+      !PI 3
+    PI 1
+
+cir> cirg 10 -fanin 4
+PO 10
+  AIG 8
+    !AIG 7
+      !PI 2
+      !PI 3
+    PI 1
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 12 -fanin 0
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 1
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 2
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 3
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 4
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirr ./tests.fraig/sim04.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 2 -fanin 0
+PO 2
+
+cir> cirg 2 -fanin 1
+PO 2
+  !PI 1
+
+cir> cirg 2 -fanin 2
+PO 2
+  !PI 1
+
+cir> cirg 3 -fanin 0
+Error: Gate(3) not found!!
+Error: Illegal option!! (3)
+
+cir> cirg 3 -fanin 1
+Error: Gate(3) not found!!
+Error: Illegal option!! (3)
+
+cir> cirg 3 -fanin 2
+Error: Gate(3) not found!!
+Error: Illegal option!! (3)
+
+cir> cirg 4 -fanin 0
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 1
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 2
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirr ./tests.fraig/sim05.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+AIG 3
+
+cir> cirg 3 -fanin 1
+AIG 3
+  CONST 0
+  PI 1
+
+cir> cirg 3 -fanin 2
+AIG 3
+  CONST 0
+  PI 1
+
+cir> cirg 3 -fanin 3
+AIG 3
+  CONST 0
+  PI 1
+
+cir> cirg 3 -fanin 4
+AIG 3
+  CONST 0
+  PI 1
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  AIG 3
+  !CONST 0
+
+cir> cirg 4 -fanin 2
+AIG 4
+  AIG 3
+    CONST 0
+    PI 1
+  !CONST 0
+
+cir> cirg 4 -fanin 3
+AIG 4
+  AIG 3
+    CONST 0
+    PI 1
+  !CONST 0
+
+cir> cirg 4 -fanin 4
+AIG 4
+  AIG 3
+    CONST 0
+    PI 1
+  !CONST 0
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  CONST 0
+  AIG 4
+
+cir> cirg 5 -fanin 2
+AIG 5
+  CONST 0
+  AIG 4
+    AIG 3
+    !CONST 0
+
+cir> cirg 5 -fanin 3
+AIG 5
+  CONST 0
+  AIG 4
+    AIG 3
+      CONST 0
+      PI 1
+    !CONST 0
+
+cir> cirg 5 -fanin 4
+AIG 5
+  CONST 0
+  AIG 4
+    AIG 3
+      CONST 0
+      PI 1
+    !CONST 0
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  !AIG 5
+  AIG 8
+
+cir> cirg 6 -fanin 2
+AIG 6
+  !AIG 5
+    CONST 0
+    AIG 4
+  AIG 8
+    !AIG 7
+    !AIG 7
+
+cir> cirg 6 -fanin 3
+AIG 6
+  !AIG 5
+    CONST 0
+    AIG 4
+      AIG 3
+      !CONST 0
+  AIG 8
+    !AIG 7
+      PI 1
+      !PI 2
+    !AIG 7 (*)
+
+cir> cirg 6 -fanin 4
+AIG 6
+  !AIG 5
+    CONST 0
+    AIG 4
+      AIG 3
+        CONST 0
+        PI 1
+      !CONST 0
+  AIG 8
+    !AIG 7
+      PI 1
+      !PI 2
+    !AIG 7 (*)
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  PI 1
+  !PI 2
+
+cir> cirg 7 -fanin 2
+AIG 7
+  PI 1
+  !PI 2
+
+cir> cirg 7 -fanin 3
+AIG 7
+  PI 1
+  !PI 2
+
+cir> cirg 7 -fanin 4
+AIG 7
+  PI 1
+  !PI 2
+
+cir> cirg 8 -fanin 0
+AIG 8
+
+cir> cirg 8 -fanin 1
+AIG 8
+  !AIG 7
+  !AIG 7
+
+cir> cirg 8 -fanin 2
+AIG 8
+  !AIG 7
+    PI 1
+    !PI 2
+  !AIG 7 (*)
+
+cir> cirg 8 -fanin 3
+AIG 8
+  !AIG 7
+    PI 1
+    !PI 2
+  !AIG 7 (*)
+
+cir> cirg 8 -fanin 4
+AIG 8
+  !AIG 7
+    PI 1
+    !PI 2
+  !AIG 7 (*)
+
+cir> cirg 9 -fanin 0
+AIG 9
+
+cir> cirg 9 -fanin 1
+AIG 9
+  AIG 7
+  AIG 7
+
+cir> cirg 9 -fanin 2
+AIG 9
+  AIG 7
+    PI 1
+    !PI 2
+  AIG 7 (*)
+
+cir> cirg 9 -fanin 3
+AIG 9
+  AIG 7
+    PI 1
+    !PI 2
+  AIG 7 (*)
+
+cir> cirg 9 -fanin 4
+AIG 9
+  AIG 7
+    PI 1
+    !PI 2
+  AIG 7 (*)
+
+cir> cirg 10 -fanin 0
+AIG 10
+
+cir> cirg 10 -fanin 1
+AIG 10
+  AIG 6
+  AIG 7
+
+cir> cirg 10 -fanin 2
+AIG 10
+  AIG 6
+    !AIG 5
+    AIG 8
+  AIG 7
+    PI 1
+    !PI 2
+
+cir> cirg 10 -fanin 3
+AIG 10
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+    AIG 8
+      !AIG 7
+      !AIG 7
+  AIG 7
+    PI 1
+    !PI 2
+
+cir> cirg 10 -fanin 4
+AIG 10
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+        AIG 3
+        !CONST 0
+    AIG 8
+      !AIG 7
+        PI 1
+        !PI 2
+      !AIG 7 (*)
+  AIG 7 (*)
+
+cir> cirg 11 -fanin 0
+AIG 11
+
+cir> cirg 11 -fanin 1
+AIG 11
+  AIG 6
+  AIG 8
+
+cir> cirg 11 -fanin 2
+AIG 11
+  AIG 6
+    !AIG 5
+    AIG 8
+  AIG 8
+    !AIG 7
+    !AIG 7
+
+cir> cirg 11 -fanin 3
+AIG 11
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+    AIG 8
+      !AIG 7
+      !AIG 7
+  AIG 8 (*)
+
+cir> cirg 11 -fanin 4
+AIG 11
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+        AIG 3
+        !CONST 0
+    AIG 8
+      !AIG 7
+        PI 1
+        !PI 2
+      !AIG 7 (*)
+  AIG 8 (*)
+
+cir> cirg 12 -fanin 0
+AIG 12
+
+cir> cirg 12 -fanin 1
+AIG 12
+  AIG 6
+  AIG 9
+
+cir> cirg 12 -fanin 2
+AIG 12
+  AIG 6
+    !AIG 5
+    AIG 8
+  AIG 9
+    AIG 7
+    AIG 7
+
+cir> cirg 12 -fanin 3
+AIG 12
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+    AIG 8
+      !AIG 7
+      !AIG 7
+  AIG 9
+    AIG 7
+      PI 1
+      !PI 2
+    AIG 7 (*)
+
+cir> cirg 12 -fanin 4
+AIG 12
+  AIG 6
+    !AIG 5
+      CONST 0
+      AIG 4
+        AIG 3
+        !CONST 0
+    AIG 8
+      !AIG 7
+        PI 1
+        !PI 2
+      !AIG 7 (*)
+  AIG 9
+    AIG 7 (*)
+    AIG 7 (*)
+
+cir> cirg 13 -fanin 0
+AIG 13
+
+cir> cirg 13 -fanin 1
+AIG 13
+  !AIG 10
+  AIG 12
+
+cir> cirg 13 -fanin 2
+AIG 13
+  !AIG 10
+    AIG 6
+    AIG 7
+  AIG 12
+    AIG 6
+    AIG 9
+
+cir> cirg 13 -fanin 3
+AIG 13
+  !AIG 10
+    AIG 6
+      !AIG 5
+      AIG 8
+    AIG 7
+      PI 1
+      !PI 2
+  AIG 12
+    AIG 6 (*)
+    AIG 9
+      AIG 7
+      AIG 7
+
+cir> cirg 13 -fanin 4
+AIG 13
+  !AIG 10
+    AIG 6
+      !AIG 5
+        CONST 0
+        AIG 4
+      AIG 8
+        !AIG 7
+        !AIG 7
+    AIG 7
+      PI 1
+      !PI 2
+  AIG 12
+    AIG 6 (*)
+    AIG 9
+      AIG 7 (*)
+      AIG 7 (*)
+
+cir> cirg 14 -fanin 0
+AIG 14
+
+cir> cirg 14 -fanin 1
+AIG 14
+  AIG 11
+  !AIG 13
+
+cir> cirg 14 -fanin 2
+AIG 14
+  AIG 11
+    AIG 6
+    AIG 8
+  !AIG 13
+    !AIG 10
+    AIG 12
+
+cir> cirg 14 -fanin 3
+AIG 14
+  AIG 11
+    AIG 6
+      !AIG 5
+      AIG 8
+    AIG 8
+      !AIG 7
+      !AIG 7
+  !AIG 13
+    !AIG 10
+      AIG 6
+      AIG 7
+    AIG 12
+      AIG 6
+      AIG 9
+
+cir> cirg 14 -fanin 4
+AIG 14
+  AIG 11
+    AIG 6
+      !AIG 5
+        CONST 0
+        AIG 4
+      AIG 8
+        !AIG 7
+        !AIG 7
+    AIG 8 (*)
+  !AIG 13
+    !AIG 10
+      AIG 6 (*)
+      AIG 7
+        PI 1
+        !PI 2
+    AIG 12
+      AIG 6 (*)
+      AIG 9
+        AIG 7
+        AIG 7
+
+cir> cirg 15 -fanin 0
+PO 15
+
+cir> cirg 15 -fanin 1
+PO 15
+  AIG 14
+
+cir> cirg 15 -fanin 2
+PO 15
+  AIG 14
+    AIG 11
+    !AIG 13
+
+cir> cirg 15 -fanin 3
+PO 15
+  AIG 14
+    AIG 11
+      AIG 6
+      AIG 8
+    !AIG 13
+      !AIG 10
+      AIG 12
+
+cir> cirg 15 -fanin 4
+PO 15
+  AIG 14
+    AIG 11
+      AIG 6
+        !AIG 5
+        AIG 8
+      AIG 8
+        !AIG 7
+        !AIG 7
+    !AIG 13
+      !AIG 10
+        AIG 6
+        AIG 7
+      AIG 12
+        AIG 6
+        AIG 9
+
+cir> cirg 16 -fanin 0
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 1
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 2
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 3
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 4
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirr ./tests.fraig/sim06.aag -r
+Note: original circuit is replaced...
+
+cir> cirr ./tests.fraig/sim07.aag -r
+Note: original circuit is replaced...
+
+cir> cirr ./tests.fraig/sim08.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+AIG 3
+
+cir> cirg 3 -fanin 1
+AIG 3
+  PI 2
+  PI 1
+
+cir> cirg 3 -fanin 2
+AIG 3
+  PI 2
+  PI 1
+
+cir> cirg 3 -fanin 3
+AIG 3
+  PI 2
+  PI 1
+
+cir> cirg 3 -fanin 4
+AIG 3
+  PI 2
+  PI 1
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 2
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 3
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 4
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  !PI 1
+  !PI 2
+
+cir> cirg 5 -fanin 2
+AIG 5
+  !PI 1
+  !PI 2
+
+cir> cirg 5 -fanin 3
+AIG 5
+  !PI 1
+  !PI 2
+
+cir> cirg 5 -fanin 4
+AIG 5
+  !PI 1
+  !PI 2
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  AIG 4
+  AIG 5
+
+cir> cirg 6 -fanin 2
+AIG 6
+  AIG 4
+    PI 1
+    PI 2
+  AIG 5
+    !PI 1
+    !PI 2
+
+cir> cirg 6 -fanin 3
+AIG 6
+  AIG 4
+    PI 1
+    PI 2
+  AIG 5
+    !PI 1
+    !PI 2
+
+cir> cirg 6 -fanin 4
+AIG 6
+  AIG 4
+    PI 1
+    PI 2
+  AIG 5
+    !PI 1
+    !PI 2
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  AIG 5
+  AIG 3
+
+cir> cirg 7 -fanin 2
+AIG 7
+  AIG 5
+    !PI 1
+    !PI 2
+  AIG 3
+    PI 2
+    PI 1
+
+cir> cirg 7 -fanin 3
+AIG 7
+  AIG 5
+    !PI 1
+    !PI 2
+  AIG 3
+    PI 2
+    PI 1
+
+cir> cirg 7 -fanin 4
+AIG 7
+  AIG 5
+    !PI 1
+    !PI 2
+  AIG 3
+    PI 2
+    PI 1
+
+cir> cirg 8 -fanin 0
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 1
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 2
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 3
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 4
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  AIG 6
+
+cir> cirg 9 -fanin 2
+PO 9
+  AIG 6
+    AIG 4
+    AIG 5
+
+cir> cirg 9 -fanin 3
+PO 9
+  AIG 6
+    AIG 4
+      PI 1
+      PI 2
+    AIG 5
+      !PI 1
+      !PI 2
+
+cir> cirg 9 -fanin 4
+PO 9
+  AIG 6
+    AIG 4
+      PI 1
+      PI 2
+    AIG 5
+      !PI 1
+      !PI 2
+
+cir> cirg 10 -fanin 0
+PO 10
+
+cir> cirg 10 -fanin 1
+PO 10
+  AIG 7
+
+cir> cirg 10 -fanin 2
+PO 10
+  AIG 7
+    AIG 5
+    AIG 3
+
+cir> cirg 10 -fanin 3
+PO 10
+  AIG 7
+    AIG 5
+      !PI 1
+      !PI 2
+    AIG 3
+      PI 2
+      PI 1
+
+cir> cirg 10 -fanin 4
+PO 10
+  AIG 7
+    AIG 5
+      !PI 1
+      !PI 2
+    AIG 3
+      PI 2
+      PI 1
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 12 -fanin 0
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 1
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 2
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 3
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 4
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirr ./tests.fraig/sim09.aag -r
+Note: original circuit is replaced...
+
+cir> cirr ./tests.fraig/sim10.aag -r
+Note: original circuit is replaced...
+
+cir> cirr ./tests.fraig/sim11.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+AIG 3
+
+cir> cirg 3 -fanin 1
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 2
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 3
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 4
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  !PI 1
+  PI 2
+
+cir> cirg 4 -fanin 2
+AIG 4
+  !PI 1
+  PI 2
+
+cir> cirg 4 -fanin 3
+AIG 4
+  !PI 1
+  PI 2
+
+cir> cirg 4 -fanin 4
+AIG 4
+  !PI 1
+  PI 2
+
+cir> cirg 5 -fanin 0
+PO 5
+
+cir> cirg 5 -fanin 1
+PO 5
+  AIG 3
+
+cir> cirg 5 -fanin 2
+PO 5
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 5 -fanin 3
+PO 5
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 5 -fanin 4
+PO 5
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 6 -fanin 0
+PO 6
+
+cir> cirg 6 -fanin 1
+PO 6
+  AIG 4
+
+cir> cirg 6 -fanin 2
+PO 6
+  AIG 4
+    !PI 1
+    PI 2
+
+cir> cirg 6 -fanin 3
+PO 6
+  AIG 4
+    !PI 1
+    PI 2
+
+cir> cirg 6 -fanin 4
+PO 6
+  AIG 4
+    !PI 1
+    PI 2
+
+cir> cirg 7 -fanin 0
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 1
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 2
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 3
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 4
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 8 -fanin 0
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 1
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 2
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 3
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 4
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirr ./tests.fraig/sim12.aag -r
+Note: original circuit is replaced...
+
+cir> cirr ./tests.fraig/sim13.aag -r
+Note: original circuit is replaced...
+
+cir> cirr ./tests.fraig/sim14.aag -r
+Note: original circuit is replaced...
+
+cir> cirr ./tests.fraig/sim15.aag -r
+Note: original circuit is replaced...
+
+cir> cirr ./tests.fraig/strash01.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  PI 1
+  PI 3
+
+cir> cirg 4 -fanin 2
+AIG 4
+  PI 1
+  PI 3
+
+cir> cirg 4 -fanin 3
+AIG 4
+  PI 1
+  PI 3
+
+cir> cirg 4 -fanin 4
+AIG 4
+  PI 1
+  PI 3
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  PI 3
+  PI 1
+
+cir> cirg 5 -fanin 2
+AIG 5
+  PI 3
+  PI 1
+
+cir> cirg 5 -fanin 3
+AIG 5
+  PI 3
+  PI 1
+
+cir> cirg 5 -fanin 4
+AIG 5
+  PI 3
+  PI 1
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  AIG 4
+  PI 2
+
+cir> cirg 6 -fanin 2
+AIG 6
+  AIG 4
+    PI 1
+    PI 3
+  PI 2
+
+cir> cirg 6 -fanin 3
+AIG 6
+  AIG 4
+    PI 1
+    PI 3
+  PI 2
+
+cir> cirg 6 -fanin 4
+AIG 6
+  AIG 4
+    PI 1
+    PI 3
+  PI 2
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  PI 2
+  AIG 5
+
+cir> cirg 7 -fanin 2
+AIG 7
+  PI 2
+  AIG 5
+    PI 3
+    PI 1
+
+cir> cirg 7 -fanin 3
+AIG 7
+  PI 2
+  AIG 5
+    PI 3
+    PI 1
+
+cir> cirg 7 -fanin 4
+AIG 7
+  PI 2
+  AIG 5
+    PI 3
+    PI 1
+
+cir> cirg 8 -fanin 0
+PO 8
+
+cir> cirg 8 -fanin 1
+PO 8
+  AIG 6
+
+cir> cirg 8 -fanin 2
+PO 8
+  AIG 6
+    AIG 4
+    PI 2
+
+cir> cirg 8 -fanin 3
+PO 8
+  AIG 6
+    AIG 4
+      PI 1
+      PI 3
+    PI 2
+
+cir> cirg 8 -fanin 4
+PO 8
+  AIG 6
+    AIG 4
+      PI 1
+      PI 3
+    PI 2
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  AIG 7
+
+cir> cirg 9 -fanin 2
+PO 9
+  AIG 7
+    PI 2
+    AIG 5
+
+cir> cirg 9 -fanin 3
+PO 9
+  AIG 7
+    PI 2
+    AIG 5
+      PI 3
+      PI 1
+
+cir> cirg 9 -fanin 4
+PO 9
+  AIG 7
+    PI 2
+    AIG 5
+      PI 3
+      PI 1
+
+cir> cirg 10 -fanin 0
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 1
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 2
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 3
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 4
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirr ./tests.fraig/strash02.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  !PI 1
+  PI 3
+
+cir> cirg 4 -fanin 2
+AIG 4
+  !PI 1
+  PI 3
+
+cir> cirg 4 -fanin 3
+AIG 4
+  !PI 1
+  PI 3
+
+cir> cirg 4 -fanin 4
+AIG 4
+  !PI 1
+  PI 3
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  PI 3
+  !PI 1
+
+cir> cirg 5 -fanin 2
+AIG 5
+  PI 3
+  !PI 1
+
+cir> cirg 5 -fanin 3
+AIG 5
+  PI 3
+  !PI 1
+
+cir> cirg 5 -fanin 4
+AIG 5
+  PI 3
+  !PI 1
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  AIG 4
+  !PI 2
+
+cir> cirg 6 -fanin 2
+AIG 6
+  AIG 4
+    !PI 1
+    PI 3
+  !PI 2
+
+cir> cirg 6 -fanin 3
+AIG 6
+  AIG 4
+    !PI 1
+    PI 3
+  !PI 2
+
+cir> cirg 6 -fanin 4
+AIG 6
+  AIG 4
+    !PI 1
+    PI 3
+  !PI 2
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  PI 2
+  !AIG 5
+
+cir> cirg 7 -fanin 2
+AIG 7
+  PI 2
+  !AIG 5
+    PI 3
+    !PI 1
+
+cir> cirg 7 -fanin 3
+AIG 7
+  PI 2
+  !AIG 5
+    PI 3
+    !PI 1
+
+cir> cirg 7 -fanin 4
+AIG 7
+  PI 2
+  !AIG 5
+    PI 3
+    !PI 1
+
+cir> cirg 8 -fanin 0
+PO 8
+
+cir> cirg 8 -fanin 1
+PO 8
+  AIG 6
+
+cir> cirg 8 -fanin 2
+PO 8
+  AIG 6
+    AIG 4
+    !PI 2
+
+cir> cirg 8 -fanin 3
+PO 8
+  AIG 6
+    AIG 4
+      !PI 1
+      PI 3
+    !PI 2
+
+cir> cirg 8 -fanin 4
+PO 8
+  AIG 6
+    AIG 4
+      !PI 1
+      PI 3
+    !PI 2
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  AIG 7
+
+cir> cirg 9 -fanin 2
+PO 9
+  AIG 7
+    PI 2
+    !AIG 5
+
+cir> cirg 9 -fanin 3
+PO 9
+  AIG 7
+    PI 2
+    !AIG 5
+      PI 3
+      !PI 1
+
+cir> cirg 9 -fanin 4
+PO 9
+  AIG 7
+    PI 2
+    !AIG 5
+      PI 3
+      !PI 1
+
+cir> cirg 10 -fanin 0
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 1
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 2
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 3
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 4
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirr ./tests.fraig/strash03.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  !PI 1
+  PI 3
+
+cir> cirg 4 -fanin 2
+AIG 4
+  !PI 1
+  PI 3
+
+cir> cirg 4 -fanin 3
+AIG 4
+  !PI 1
+  PI 3
+
+cir> cirg 4 -fanin 4
+AIG 4
+  !PI 1
+  PI 3
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  !PI 3
+  PI 1
+
+cir> cirg 5 -fanin 2
+AIG 5
+  !PI 3
+  PI 1
+
+cir> cirg 5 -fanin 3
+AIG 5
+  !PI 3
+  PI 1
+
+cir> cirg 5 -fanin 4
+AIG 5
+  !PI 3
+  PI 1
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  AIG 4
+  PI 2
+
+cir> cirg 6 -fanin 2
+AIG 6
+  AIG 4
+    !PI 1
+    PI 3
+  PI 2
+
+cir> cirg 6 -fanin 3
+AIG 6
+  AIG 4
+    !PI 1
+    PI 3
+  PI 2
+
+cir> cirg 6 -fanin 4
+AIG 6
+  AIG 4
+    !PI 1
+    PI 3
+  PI 2
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  PI 2
+  AIG 5
+
+cir> cirg 7 -fanin 2
+AIG 7
+  PI 2
+  AIG 5
+    !PI 3
+    PI 1
+
+cir> cirg 7 -fanin 3
+AIG 7
+  PI 2
+  AIG 5
+    !PI 3
+    PI 1
+
+cir> cirg 7 -fanin 4
+AIG 7
+  PI 2
+  AIG 5
+    !PI 3
+    PI 1
+
+cir> cirg 8 -fanin 0
+PO 8
+
+cir> cirg 8 -fanin 1
+PO 8
+  AIG 6
+
+cir> cirg 8 -fanin 2
+PO 8
+  AIG 6
+    AIG 4
+    PI 2
+
+cir> cirg 8 -fanin 3
+PO 8
+  AIG 6
+    AIG 4
+      !PI 1
+      PI 3
+    PI 2
+
+cir> cirg 8 -fanin 4
+PO 8
+  AIG 6
+    AIG 4
+      !PI 1
+      PI 3
+    PI 2
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  AIG 7
+
+cir> cirg 9 -fanin 2
+PO 9
+  AIG 7
+    PI 2
+    AIG 5
+
+cir> cirg 9 -fanin 3
+PO 9
+  AIG 7
+    PI 2
+    AIG 5
+      !PI 3
+      PI 1
+
+cir> cirg 9 -fanin 4
+PO 9
+  AIG 7
+    PI 2
+    AIG 5
+      !PI 3
+      PI 1
+
+cir> cirg 10 -fanin 0
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 1
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 2
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 3
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 4
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirr ./tests.fraig/strash04.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  PI 3
+  !PI 1
+
+cir> cirg 4 -fanin 2
+AIG 4
+  PI 3
+  !PI 1
+
+cir> cirg 4 -fanin 3
+AIG 4
+  PI 3
+  !PI 1
+
+cir> cirg 4 -fanin 4
+AIG 4
+  PI 3
+  !PI 1
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  PI 1
+  !PI 3
+
+cir> cirg 5 -fanin 2
+AIG 5
+  PI 1
+  !PI 3
+
+cir> cirg 5 -fanin 3
+AIG 5
+  PI 1
+  !PI 3
+
+cir> cirg 5 -fanin 4
+AIG 5
+  PI 1
+  !PI 3
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  AIG 4
+  !PI 2
+
+cir> cirg 6 -fanin 2
+AIG 6
+  AIG 4
+    PI 3
+    !PI 1
+  !PI 2
+
+cir> cirg 6 -fanin 3
+AIG 6
+  AIG 4
+    PI 3
+    !PI 1
+  !PI 2
+
+cir> cirg 6 -fanin 4
+AIG 6
+  AIG 4
+    PI 3
+    !PI 1
+  !PI 2
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  PI 2
+  AIG 5
+
+cir> cirg 7 -fanin 2
+AIG 7
+  PI 2
+  AIG 5
+    PI 1
+    !PI 3
+
+cir> cirg 7 -fanin 3
+AIG 7
+  PI 2
+  AIG 5
+    PI 1
+    !PI 3
+
+cir> cirg 7 -fanin 4
+AIG 7
+  PI 2
+  AIG 5
+    PI 1
+    !PI 3
+
+cir> cirg 8 -fanin 0
+PO 8
+
+cir> cirg 8 -fanin 1
+PO 8
+  AIG 6
+
+cir> cirg 8 -fanin 2
+PO 8
+  AIG 6
+    AIG 4
+    !PI 2
+
+cir> cirg 8 -fanin 3
+PO 8
+  AIG 6
+    AIG 4
+      PI 3
+      !PI 1
+    !PI 2
+
+cir> cirg 8 -fanin 4
+PO 8
+  AIG 6
+    AIG 4
+      PI 3
+      !PI 1
+    !PI 2
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  AIG 7
+
+cir> cirg 9 -fanin 2
+PO 9
+  AIG 7
+    PI 2
+    AIG 5
+
+cir> cirg 9 -fanin 3
+PO 9
+  AIG 7
+    PI 2
+    AIG 5
+      PI 1
+      !PI 3
+
+cir> cirg 9 -fanin 4
+PO 9
+  AIG 7
+    PI 2
+    AIG 5
+      PI 1
+      !PI 3
+
+cir> cirg 10 -fanin 0
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 1
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 2
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 3
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 4
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirr ./tests.fraig/strash05.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  PI 1
+  UNDEF 8
+
+cir> cirg 4 -fanin 2
+AIG 4
+  PI 1
+  UNDEF 8
+
+cir> cirg 4 -fanin 3
+AIG 4
+  PI 1
+  UNDEF 8
+
+cir> cirg 4 -fanin 4
+AIG 4
+  PI 1
+  UNDEF 8
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  UNDEF 8
+  PI 1
+
+cir> cirg 5 -fanin 2
+AIG 5
+  UNDEF 8
+  PI 1
+
+cir> cirg 5 -fanin 3
+AIG 5
+  UNDEF 8
+  PI 1
+
+cir> cirg 5 -fanin 4
+AIG 5
+  UNDEF 8
+  PI 1
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  AIG 4
+  PI 2
+
+cir> cirg 6 -fanin 2
+AIG 6
+  AIG 4
+    PI 1
+    UNDEF 8
+  PI 2
+
+cir> cirg 6 -fanin 3
+AIG 6
+  AIG 4
+    PI 1
+    UNDEF 8
+  PI 2
+
+cir> cirg 6 -fanin 4
+AIG 6
+  AIG 4
+    PI 1
+    UNDEF 8
+  PI 2
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  PI 2
+  AIG 5
+
+cir> cirg 7 -fanin 2
+AIG 7
+  PI 2
+  AIG 5
+    UNDEF 8
+    PI 1
+
+cir> cirg 7 -fanin 3
+AIG 7
+  PI 2
+  AIG 5
+    UNDEF 8
+    PI 1
+
+cir> cirg 7 -fanin 4
+AIG 7
+  PI 2
+  AIG 5
+    UNDEF 8
+    PI 1
+
+cir> cirg 8 -fanin 0
+UNDEF 8
+
+cir> cirg 8 -fanin 1
+UNDEF 8
+
+cir> cirg 8 -fanin 2
+UNDEF 8
+
+cir> cirg 8 -fanin 3
+UNDEF 8
+
+cir> cirg 8 -fanin 4
+UNDEF 8
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  AIG 6
+
+cir> cirg 9 -fanin 2
+PO 9
+  AIG 6
+    AIG 4
+    PI 2
+
+cir> cirg 9 -fanin 3
+PO 9
+  AIG 6
+    AIG 4
+      PI 1
+      UNDEF 8
+    PI 2
+
+cir> cirg 9 -fanin 4
+PO 9
+  AIG 6
+    AIG 4
+      PI 1
+      UNDEF 8
+    PI 2
+
+cir> cirg 10 -fanin 0
+PO 10
+
+cir> cirg 10 -fanin 1
+PO 10
+  AIG 7
+
+cir> cirg 10 -fanin 2
+PO 10
+  AIG 7
+    PI 2
+    AIG 5
+
+cir> cirg 10 -fanin 3
+PO 10
+  AIG 7
+    PI 2
+    AIG 5
+      UNDEF 8
+      PI 1
+
+cir> cirg 10 -fanin 4
+PO 10
+  AIG 7
+    PI 2
+    AIG 5
+      UNDEF 8
+      PI 1
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirr ./tests.fraig/strash06.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+AIG 3
+
+cir> cirg 3 -fanin 1
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 2
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 3
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 4
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 0
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 1
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 2
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 3
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 4
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  !CONST 0
+  PI 1
+
+cir> cirg 5 -fanin 2
+AIG 5
+  !CONST 0
+  PI 1
+
+cir> cirg 5 -fanin 3
+AIG 5
+  !CONST 0
+  PI 1
+
+cir> cirg 5 -fanin 4
+AIG 5
+  !CONST 0
+  PI 1
+
+cir> cirg 6 -fanin 0
+UNDEF 6
+
+cir> cirg 6 -fanin 1
+UNDEF 6
+
+cir> cirg 6 -fanin 2
+UNDEF 6
+
+cir> cirg 6 -fanin 3
+UNDEF 6
+
+cir> cirg 6 -fanin 4
+UNDEF 6
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  UNDEF 6
+  AIG 5
+
+cir> cirg 7 -fanin 2
+AIG 7
+  UNDEF 6
+  AIG 5
+    !CONST 0
+    PI 1
+
+cir> cirg 7 -fanin 3
+AIG 7
+  UNDEF 6
+  AIG 5
+    !CONST 0
+    PI 1
+
+cir> cirg 7 -fanin 4
+AIG 7
+  UNDEF 6
+  AIG 5
+    !CONST 0
+    PI 1
+
+cir> cirg 8 -fanin 0
+AIG 8
+
+cir> cirg 8 -fanin 1
+AIG 8
+  AIG 5
+  AIG 3
+
+cir> cirg 8 -fanin 2
+AIG 8
+  AIG 5
+    !CONST 0
+    PI 1
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 8 -fanin 3
+AIG 8
+  AIG 5
+    !CONST 0
+    PI 1
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 8 -fanin 4
+AIG 8
+  AIG 5
+    !CONST 0
+    PI 1
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 9 -fanin 0
+AIG 9
+
+cir> cirg 9 -fanin 1
+AIG 9
+  AIG 7
+  AIG 8
+
+cir> cirg 9 -fanin 2
+AIG 9
+  AIG 7
+    UNDEF 6
+    AIG 5
+  AIG 8
+    AIG 5
+    AIG 3
+
+cir> cirg 9 -fanin 3
+AIG 9
+  AIG 7
+    UNDEF 6
+    AIG 5
+      !CONST 0
+      PI 1
+  AIG 8
+    AIG 5 (*)
+    AIG 3
+      PI 1
+      PI 2
+
+cir> cirg 9 -fanin 4
+AIG 9
+  AIG 7
+    UNDEF 6
+    AIG 5
+      !CONST 0
+      PI 1
+  AIG 8
+    AIG 5 (*)
+    AIG 3
+      PI 1
+      PI 2
+
+cir> cirg 10 -fanin 0
+AIG 10
+
+cir> cirg 10 -fanin 1
+AIG 10
+  AIG 7
+  AIG 8
+
+cir> cirg 10 -fanin 2
+AIG 10
+  AIG 7
+    UNDEF 6
+    AIG 5
+  AIG 8
+    AIG 5
+    AIG 3
+
+cir> cirg 10 -fanin 3
+AIG 10
+  AIG 7
+    UNDEF 6
+    AIG 5
+      !CONST 0
+      PI 1
+  AIG 8
+    AIG 5 (*)
+    AIG 3
+      PI 1
+      PI 2
+
+cir> cirg 10 -fanin 4
+AIG 10
+  AIG 7
+    UNDEF 6
+    AIG 5
+      !CONST 0
+      PI 1
+  AIG 8
+    AIG 5 (*)
+    AIG 3
+      PI 1
+      PI 2
+
+cir> cirg 11 -fanin 0
+PO 11
+
+cir> cirg 11 -fanin 1
+PO 11
+  AIG 3
+
+cir> cirg 11 -fanin 2
+PO 11
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 11 -fanin 3
+PO 11
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 11 -fanin 4
+PO 11
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 12 -fanin 1
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 2
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 3
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 12 -fanin 4
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirr ./tests.fraig/strash07.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+AIG 3
+
+cir> cirg 3 -fanin 1
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 2
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 3
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 4
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  PI 2
+  PI 1
+
+cir> cirg 4 -fanin 2
+AIG 4
+  PI 2
+  PI 1
+
+cir> cirg 4 -fanin 3
+AIG 4
+  PI 2
+  PI 1
+
+cir> cirg 4 -fanin 4
+AIG 4
+  PI 2
+  PI 1
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  AIG 3
+  AIG 4
+
+cir> cirg 5 -fanin 2
+AIG 5
+  AIG 3
+    PI 1
+    PI 2
+  AIG 4
+    PI 2
+    PI 1
+
+cir> cirg 5 -fanin 3
+AIG 5
+  AIG 3
+    PI 1
+    PI 2
+  AIG 4
+    PI 2
+    PI 1
+
+cir> cirg 5 -fanin 4
+AIG 5
+  AIG 3
+    PI 1
+    PI 2
+  AIG 4
+    PI 2
+    PI 1
+
+cir> cirg 6 -fanin 0
+PO 6
+
+cir> cirg 6 -fanin 1
+PO 6
+  AIG 5
+
+cir> cirg 6 -fanin 2
+PO 6
+  AIG 5
+    AIG 3
+    AIG 4
+
+cir> cirg 6 -fanin 3
+PO 6
+  AIG 5
+    AIG 3
+      PI 1
+      PI 2
+    AIG 4
+      PI 2
+      PI 1
+
+cir> cirg 6 -fanin 4
+PO 6
+  AIG 5
+    AIG 3
+      PI 1
+      PI 2
+    AIG 4
+      PI 2
+      PI 1
+
+cir> cirg 7 -fanin 0
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 1
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 2
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 3
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 4
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 8 -fanin 0
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 1
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 2
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 3
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 4
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirr ./tests.fraig/strash08.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+AIG 3
+
+cir> cirg 3 -fanin 1
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 2
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 3
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 3 -fanin 4
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  !PI 2
+  !PI 1
+
+cir> cirg 4 -fanin 2
+AIG 4
+  !PI 2
+  !PI 1
+
+cir> cirg 4 -fanin 3
+AIG 4
+  !PI 2
+  !PI 1
+
+cir> cirg 4 -fanin 4
+AIG 4
+  !PI 2
+  !PI 1
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  AIG 3
+  AIG 4
+
+cir> cirg 5 -fanin 2
+AIG 5
+  AIG 3
+    PI 1
+    PI 2
+  AIG 4
+    !PI 2
+    !PI 1
+
+cir> cirg 5 -fanin 3
+AIG 5
+  AIG 3
+    PI 1
+    PI 2
+  AIG 4
+    !PI 2
+    !PI 1
+
+cir> cirg 5 -fanin 4
+AIG 5
+  AIG 3
+    PI 1
+    PI 2
+  AIG 4
+    !PI 2
+    !PI 1
+
+cir> cirg 6 -fanin 0
+PO 6
+
+cir> cirg 6 -fanin 1
+PO 6
+  AIG 5
+
+cir> cirg 6 -fanin 2
+PO 6
+  AIG 5
+    AIG 3
+    AIG 4
+
+cir> cirg 6 -fanin 3
+PO 6
+  AIG 5
+    AIG 3
+      PI 1
+      PI 2
+    AIG 4
+      !PI 2
+      !PI 1
+
+cir> cirg 6 -fanin 4
+PO 6
+  AIG 5
+    AIG 3
+      PI 1
+      PI 2
+    AIG 4
+      !PI 2
+      !PI 1
+
+cir> cirg 7 -fanin 0
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 1
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 2
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 3
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 7 -fanin 4
+Error: Gate(7) not found!!
+Error: Illegal option!! (7)
+
+cir> cirg 8 -fanin 0
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 1
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 2
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 3
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 4
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirr ./tests.fraig/strash09.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 3 -fanin 0
+AIG 3
+
+cir> cirg 3 -fanin 1
+AIG 3
+  PI 2
+  PI 1
+
+cir> cirg 3 -fanin 2
+AIG 3
+  PI 2
+  PI 1
+
+cir> cirg 3 -fanin 3
+AIG 3
+  PI 2
+  PI 1
+
+cir> cirg 3 -fanin 4
+AIG 3
+  PI 2
+  PI 1
+
+cir> cirg 4 -fanin 0
+AIG 4
+
+cir> cirg 4 -fanin 1
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 2
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 3
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanin 4
+AIG 4
+  PI 1
+  PI 2
+
+cir> cirg 5 -fanin 0
+AIG 5
+
+cir> cirg 5 -fanin 1
+AIG 5
+  !PI 1
+  !PI 2
+
+cir> cirg 5 -fanin 2
+AIG 5
+  !PI 1
+  !PI 2
+
+cir> cirg 5 -fanin 3
+AIG 5
+  !PI 1
+  !PI 2
+
+cir> cirg 5 -fanin 4
+AIG 5
+  !PI 1
+  !PI 2
+
+cir> cirg 6 -fanin 0
+AIG 6
+
+cir> cirg 6 -fanin 1
+AIG 6
+  AIG 4
+  AIG 5
+
+cir> cirg 6 -fanin 2
+AIG 6
+  AIG 4
+    PI 1
+    PI 2
+  AIG 5
+    !PI 1
+    !PI 2
+
+cir> cirg 6 -fanin 3
+AIG 6
+  AIG 4
+    PI 1
+    PI 2
+  AIG 5
+    !PI 1
+    !PI 2
+
+cir> cirg 6 -fanin 4
+AIG 6
+  AIG 4
+    PI 1
+    PI 2
+  AIG 5
+    !PI 1
+    !PI 2
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  AIG 5
+  AIG 3
+
+cir> cirg 7 -fanin 2
+AIG 7
+  AIG 5
+    !PI 1
+    !PI 2
+  AIG 3
+    PI 2
+    PI 1
+
+cir> cirg 7 -fanin 3
+AIG 7
+  AIG 5
+    !PI 1
+    !PI 2
+  AIG 3
+    PI 2
+    PI 1
+
+cir> cirg 7 -fanin 4
+AIG 7
+  AIG 5
+    !PI 1
+    !PI 2
+  AIG 3
+    PI 2
+    PI 1
+
+cir> cirg 8 -fanin 0
+PO 8
+
+cir> cirg 8 -fanin 1
+PO 8
+  AIG 6
+
+cir> cirg 8 -fanin 2
+PO 8
+  AIG 6
+    AIG 4
+    AIG 5
+
+cir> cirg 8 -fanin 3
+PO 8
+  AIG 6
+    AIG 4
+      PI 1
+      PI 2
+    AIG 5
+      !PI 1
+      !PI 2
+
+cir> cirg 8 -fanin 4
+PO 8
+  AIG 6
+    AIG 4
+      PI 1
+      PI 2
+    AIG 5
+      !PI 1
+      !PI 2
+
+cir> cirg 9 -fanin 0
+PO 9
+
+cir> cirg 9 -fanin 1
+PO 9
+  AIG 7
+
+cir> cirg 9 -fanin 2
+PO 9
+  AIG 7
+    AIG 5
+    AIG 3
+
+cir> cirg 9 -fanin 3
+PO 9
+  AIG 7
+    AIG 5
+      !PI 1
+      !PI 2
+    AIG 3
+      PI 2
+      PI 1
+
+cir> cirg 9 -fanin 4
+PO 9
+  AIG 7
+    AIG 5
+      !PI 1
+      !PI 2
+    AIG 3
+      PI 2
+      PI 1
+
+cir> cirg 10 -fanin 0
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 1
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 2
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 3
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 4
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirr ./tests.fraig/strash10.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 3 -fanin 0
+AIG 3
+
+cir> cirg 3 -fanin 1
+AIG 3
+  PI 1
+  CONST 0
+
+cir> cirg 3 -fanin 2
+AIG 3
+  PI 1
+  CONST 0
+
+cir> cirg 4 -fanin 0
+PO 4
+
+cir> cirg 4 -fanin 1
+PO 4
+  AIG 3
+
+cir> cirg 4 -fanin 2
+PO 4
+  AIG 3
+    PI 1
+    CONST 0
+
+cir> cirg 5 -fanin 0
+Error: Gate(5) not found!!
+Error: Illegal option!! (5)
+
+cir> cirg 5 -fanin 1
+Error: Gate(5) not found!!
+Error: Illegal option!! (5)
+
+cir> cirg 5 -fanin 2
+Error: Gate(5) not found!!
+Error: Illegal option!! (5)
+
+cir> cirr ./tests.fraig/test1.aag -r
+Note: original circuit is replaced...
+
+cir> cirr ./tests.fraig/test2.aag -r
+Note: original circuit is replaced...
+
+cir> cirg 0 -fanin 0
+CONST 0
+
+cir> cirg 0 -fanin 1
+CONST 0
+
+cir> cirg 0 -fanin 2
+CONST 0
+
+cir> cirg 0 -fanin 3
+CONST 0
+
+cir> cirg 0 -fanin 4
+CONST 0
+
+cir> cirg 0 -fanin 5
+CONST 0
+
+cir> cirg 1 -fanin 0
+PI 1
+
+cir> cirg 1 -fanin 1
+PI 1
+
+cir> cirg 1 -fanin 2
+PI 1
+
+cir> cirg 1 -fanin 3
+PI 1
+
+cir> cirg 1 -fanin 4
+PI 1
+
+cir> cirg 1 -fanin 5
+PI 1
+
+cir> cirg 2 -fanin 0
+PI 2
+
+cir> cirg 2 -fanin 1
+PI 2
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 2 -fanin 3
+PI 2
+
+cir> cirg 2 -fanin 4
+PI 2
+
+cir> cirg 2 -fanin 5
+PI 2
+
+cir> cirg 3 -fanin 0
+PI 3
+
+cir> cirg 3 -fanin 1
+PI 3
+
+cir> cirg 3 -fanin 2
+PI 3
+
+cir> cirg 3 -fanin 3
+PI 3
+
+cir> cirg 3 -fanin 4
+PI 3
+
+cir> cirg 3 -fanin 5
+PI 3
+
+cir> cirg 4 -fanin 0
+PI 4
+
+cir> cirg 4 -fanin 1
+PI 4
+
+cir> cirg 4 -fanin 2
+PI 4
+
+cir> cirg 4 -fanin 3
+PI 4
+
+cir> cirg 4 -fanin 4
+PI 4
+
+cir> cirg 4 -fanin 5
+PI 4
+
+cir> cirg 5 -fanin 0
+PI 5
+
+cir> cirg 5 -fanin 1
+PI 5
+
+cir> cirg 5 -fanin 2
+PI 5
+
+cir> cirg 5 -fanin 3
+PI 5
+
+cir> cirg 5 -fanin 4
+PI 5
+
+cir> cirg 5 -fanin 5
+PI 5
+
+cir> cirg 6 -fanin 0
+Error: Gate(6) not found!!
+Error: Illegal option!! (6)
+
+cir> cirg 6 -fanin 1
+Error: Gate(6) not found!!
+Error: Illegal option!! (6)
+
+cir> cirg 6 -fanin 2
+Error: Gate(6) not found!!
+Error: Illegal option!! (6)
+
+cir> cirg 6 -fanin 3
+Error: Gate(6) not found!!
+Error: Illegal option!! (6)
+
+cir> cirg 6 -fanin 4
+Error: Gate(6) not found!!
+Error: Illegal option!! (6)
+
+cir> cirg 6 -fanin 5
+Error: Gate(6) not found!!
+Error: Illegal option!! (6)
+
+cir> cirg 7 -fanin 0
+AIG 7
+
+cir> cirg 7 -fanin 1
+AIG 7
+  PI 2
+  PI 3
+
+cir> cirg 7 -fanin 2
+AIG 7
+  PI 2
+  PI 3
+
+cir> cirg 7 -fanin 3
+AIG 7
+  PI 2
+  PI 3
+
+cir> cirg 7 -fanin 4
+AIG 7
+  PI 2
+  PI 3
+
+cir> cirg 7 -fanin 5
+AIG 7
+  PI 2
+  PI 3
+
+cir> cirg 8 -fanin 0
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 1
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 2
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 3
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 4
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 8 -fanin 5
+Error: Gate(8) not found!!
+Error: Illegal option!! (8)
+
+cir> cirg 9 -fanin 0
+Error: Gate(9) not found!!
+Error: Illegal option!! (9)
+
+cir> cirg 9 -fanin 1
+Error: Gate(9) not found!!
+Error: Illegal option!! (9)
+
+cir> cirg 9 -fanin 2
+Error: Gate(9) not found!!
+Error: Illegal option!! (9)
+
+cir> cirg 9 -fanin 3
+Error: Gate(9) not found!!
+Error: Illegal option!! (9)
+
+cir> cirg 9 -fanin 4
+Error: Gate(9) not found!!
+Error: Illegal option!! (9)
+
+cir> cirg 9 -fanin 5
+Error: Gate(9) not found!!
+Error: Illegal option!! (9)
+
+cir> cirg 10 -fanin 0
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 1
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 2
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 3
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 4
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 10 -fanin 5
+Error: Gate(10) not found!!
+Error: Illegal option!! (10)
+
+cir> cirg 11 -fanin 0
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 1
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 2
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 3
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 4
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 11 -fanin 5
+Error: Gate(11) not found!!
+Error: Illegal option!! (11)
+
+cir> cirg 12 -fanin 0
+AIG 12
+
+cir> cirg 12 -fanin 1
+AIG 12
+  PI 5
+  PI 4
+
+cir> cirg 12 -fanin 2
+AIG 12
+  PI 5
+  PI 4
+
+cir> cirg 12 -fanin 3
+AIG 12
+  PI 5
+  PI 4
+
+cir> cirg 12 -fanin 4
+AIG 12
+  PI 5
+  PI 4
+
+cir> cirg 12 -fanin 5
+AIG 12
+  PI 5
+  PI 4
+
+cir> cirg 13 -fanin 0
+Error: Gate(13) not found!!
+Error: Illegal option!! (13)
+
+cir> cirg 13 -fanin 1
+Error: Gate(13) not found!!
+Error: Illegal option!! (13)
+
+cir> cirg 13 -fanin 2
+Error: Gate(13) not found!!
+Error: Illegal option!! (13)
+
+cir> cirg 13 -fanin 3
+Error: Gate(13) not found!!
+Error: Illegal option!! (13)
+
+cir> cirg 13 -fanin 4
+Error: Gate(13) not found!!
+Error: Illegal option!! (13)
+
+cir> cirg 13 -fanin 5
+Error: Gate(13) not found!!
+Error: Illegal option!! (13)
+
+cir> cirg 14 -fanin 0
+Error: Gate(14) not found!!
+Error: Illegal option!! (14)
+
+cir> cirg 14 -fanin 1
+Error: Gate(14) not found!!
+Error: Illegal option!! (14)
+
+cir> cirg 14 -fanin 2
+Error: Gate(14) not found!!
+Error: Illegal option!! (14)
+
+cir> cirg 14 -fanin 3
+Error: Gate(14) not found!!
+Error: Illegal option!! (14)
+
+cir> cirg 14 -fanin 4
+Error: Gate(14) not found!!
+Error: Illegal option!! (14)
+
+cir> cirg 14 -fanin 5
+Error: Gate(14) not found!!
+Error: Illegal option!! (14)
+
+cir> cirg 15 -fanin 0
+Error: Gate(15) not found!!
+Error: Illegal option!! (15)
+
+cir> cirg 15 -fanin 1
+Error: Gate(15) not found!!
+Error: Illegal option!! (15)
+
+cir> cirg 15 -fanin 2
+Error: Gate(15) not found!!
+Error: Illegal option!! (15)
+
+cir> cirg 15 -fanin 3
+Error: Gate(15) not found!!
+Error: Illegal option!! (15)
+
+cir> cirg 15 -fanin 4
+Error: Gate(15) not found!!
+Error: Illegal option!! (15)
+
+cir> cirg 15 -fanin 5
+Error: Gate(15) not found!!
+Error: Illegal option!! (15)
+
+cir> cirg 16 -fanin 0
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 1
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 2
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 3
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 4
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 16 -fanin 5
+Error: Gate(16) not found!!
+Error: Illegal option!! (16)
+
+cir> cirg 17 -fanin 0
+PO 17
+
+cir> cirg 17 -fanin 1
+PO 17
+  CONST 0
+
+cir> cirg 17 -fanin 2
+PO 17
+  CONST 0
+
+cir> cirg 17 -fanin 3
+PO 17
+  CONST 0
+
+cir> cirg 17 -fanin 4
+PO 17
+  CONST 0
+
+cir> cirg 17 -fanin 5
+PO 17
+  CONST 0
+
+cir> cirg 18 -fanin 0
+PO 18
+
+cir> cirg 18 -fanin 1
+PO 18
+  AIG 7
+
+cir> cirg 18 -fanin 2
+PO 18
+  AIG 7
+    PI 2
+    PI 3
+
+cir> cirg 18 -fanin 3
+PO 18
+  AIG 7
+    PI 2
+    PI 3
+
+cir> cirg 18 -fanin 4
+PO 18
+  AIG 7
+    PI 2
+    PI 3
+
+cir> cirg 18 -fanin 5
+PO 18
+  AIG 7
+    PI 2
+    PI 3
+
+cir> cirg 19 -fanin 0
+PO 19
+
+cir> cirg 19 -fanin 1
+PO 19
+  AIG 12
+
+cir> cirg 19 -fanin 2
+PO 19
+  AIG 12
+    PI 5
+    PI 4
+
+cir> cirg 19 -fanin 3
+PO 19
+  AIG 12
+    PI 5
+    PI 4
+
+cir> cirg 19 -fanin 4
+PO 19
+  AIG 12
+    PI 5
+    PI 4
+
+cir> cirg 19 -fanin 5
+PO 19
+  AIG 12
+    PI 5
+    PI 4
+
+cir> cirg 20 -fanin 0
+Error: Gate(20) not found!!
+Error: Illegal option!! (20)
+
+cir> cirg 20 -fanin 1
+Error: Gate(20) not found!!
+Error: Illegal option!! (20)
+
+cir> cirg 20 -fanin 2
+Error: Gate(20) not found!!
+Error: Illegal option!! (20)
+
+cir> cirg 20 -fanin 3
+Error: Gate(20) not found!!
+Error: Illegal option!! (20)
+
+cir> cirg 20 -fanin 4
+Error: Gate(20) not found!!
+Error: Illegal option!! (20)
+
+cir> cirg 20 -fanin 5
+Error: Gate(20) not found!!
+Error: Illegal option!! (20)
+
+cir> usage
+Period time used : 0.19 seconds
+Total time used  : 0.19 seconds
+Total memory used: 16.68 M Bytes
+
+cir> Quit -f
+
