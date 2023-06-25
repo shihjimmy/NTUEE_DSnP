@@ -1,0 +1,167 @@
+cirr ./tests.fraig/opt01.aag
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/opt02.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/opt03.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/opt04.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/opt05.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/opt06.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim01.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim02.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim03.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim04.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim05.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim06.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim07.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim08.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim09.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim10.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim11.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim12.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim13.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim14.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/sim15.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash01.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash02.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash03.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash04.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash05.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash06.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash07.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash08.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash09.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/strash10.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/test1.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirr ./tests.fraig/test2.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+usage
+Quit -f

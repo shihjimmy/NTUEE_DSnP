@@ -1,0 +1,68 @@
+cirr ./tests.fraig/C1355.aag
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirp -n
+cirw
+cirg 664 -fanin 50
+cirg 0 -fanout 50
+cirg 1 -fanout 50
+
+cirr ./tests.fraig/C1908.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirp -n
+cirw
+cirg 1253 -fanin 100
+cirg 0 -fanout 100
+cirg 1 -fanout 100
+
+cirr ./tests.fraig/C3540.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirp -n
+cirw
+cirg 2257 -fanin 200
+cirg 0 -fanout 200
+cirg 1 -fanout 200
+
+cirr ./tests.fraig/C5315.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirp -n
+cirw
+cirg 3465 -fanin 300
+cirg 0 -fanout 300
+cirg 1 -fanout 300
+
+cirr ./tests.fraig/C6218.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirp -n
+cirw
+cirg 2449 -fanin 400
+cirg 0 -fanout 400
+cirg 1 -fanout 400
+
+cirr ./tests.fraig/C7552.aag -r
+cirp
+cirp -pi
+cirp -po
+cirp -fl
+cirp -n
+cirw
+cirg 4784 -fanin 500
+cirg 4884 -fanin 500
+cirg 0 -fanout 500
+cirg 1 -fanout 500
+usage
+Quit -f

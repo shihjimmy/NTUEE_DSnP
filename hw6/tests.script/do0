@@ -1,0 +1,9 @@
+CirRead ./tests.fraig/test2.aag
+CirPrint
+CirGate 1
+CirGate 17
+CirGate 7
+CirGate 12
+CirRead ./tests.fraig/test1.aag -Replace
+usage
+Quit -f
