@@ -1,0 +1,12 @@
+cirr ./tests.err/ok01.aag -replace
+cirr ./tests.err/ok02.aag -replace
+cirr ./tests.err/ok03.aag -replace
+cirr ./tests.err/ok04.aag -replace
+cirr ./tests.err/ok05.aag -replace
+cirr ./tests.err/ok06.aag -replace
+cirr ./tests.err/ok07.aag -replace
+cirr ./tests.err/ok08.aag -replace
+cirr ./tests.err/ok09.aag -replace
+cirr ./tests.err/ok10.aag -replace
+cirr ./tests.err/ok11.aag -replace
+cirr ./tests.err/good.aag -replace
