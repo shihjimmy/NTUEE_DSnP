@@ -1,5 +1,5 @@
 # DSnP
-Data Structure and Programming ( 111-2 Special Project by prof: Ric Huang)
+Data Structure and Programming (111-2 Special Project by prof: Ric Huang)
 ## Outline
 - [x] Homework 1 - MyJsonDb
 - [x] Homework 2 - CommandLine
